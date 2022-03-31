@@ -1,8 +1,4 @@
-#   __  __         _        
-#  |  \/  |_____ _(_)___ ___
-#  | |\/| / _ \ V / / -_|_-<
-#  |_|  |_\___/\_/|_\___/__/
-                         
+
 - model: gaflix.movie
   pk: 1
   fields:
@@ -50,13 +46,15 @@
 
 
 
-#   _  _            _ 
-#  | || |___ _ _ __(_)
-#  | __ / -_) '_/ _| |
-#  |_||_\___|_| \__|_|
 
 - model: gaflix.actor
   pk: 1
+  fields:
+    name: Já
+    description: |
+      Swagrrrrrrrrrrr
+    birth_date: 1963-06-09
+    sex: male
   fields:
     name: Johny Depp
     description: |
@@ -109,11 +107,6 @@
     birth_date: 1970-04-29
     sex: male
 
-
-#   ___        _             _ 
-#  | _ \___ __(_)___ ___ _ _(_)
-#  |   / -_)_ / (_-</ -_) '_| |
-#  |_|_\___/__|_/__/\___|_| |_|
 
 - model: gaflix.director
   pk: 1
